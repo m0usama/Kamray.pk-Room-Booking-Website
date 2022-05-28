@@ -1,0 +1,100 @@
+
+
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block; }
+  .ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    position: relative; }
+    .ftco-footer-social li a span {
+      position: absolute;
+      font-size: 20px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .ftco-footer-social li a:hover {
+      color: #fff; }
+
+
+
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block; }
+  .ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.05); }
+    .ftco-footer-social li a span {
+      position: absolute;
+      font-size: 20px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: rgba(0, 0, 0, 0.8); }
+    .ftco-footer-social li a:hover {
+      color: #3e64ff; }
+      .ftco-footer-social li a:hover span {
+        color: #3e64ff; }
+
+.ftco-section {
+  background: #fff; }
+  .ftco-section h2 {
+    margin-bottom: 0; }
+
+.modal-dialog {
+  max-width: 450px; }
+
+.modal-content {
+  border: none;
+  position: relative;
+  padding: 0 !important;
+  -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  background: #fff; }
+  .modal-content .modal-header {
+    position: relative;
+    padding: 0;
+    border: none; }
+  .modal-content button.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 1; }
+  .modal-content .modal-body {
+    border: none; }
+    .modal-content .modal-body label {
+      text-transform: uppercase;
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.3); }
+    .modal-content .modal-body .forgot {
+      color: rgba(0, 0, 0, 0.3);
+      text-decoration: underline; }
+
+
