@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <div>
 
-            <header className="header_area">
+            <header className="header_area shadow-sm">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light">
                         {/*Brand and toggle get grouped for better mobile display*/}
