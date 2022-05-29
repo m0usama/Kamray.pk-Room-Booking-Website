@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Link, Redirect, Route, Routes, Navigate} from "react-router-dom";
 import Navbar from "./navbar/navbar";
 import Banner from "./banner/banner";
 import Footer from "./footer/footer";
@@ -21,12 +21,13 @@ function App() {
         <Router>
             <Navbar/>
             <Routes>
+                <Route path='/home' element={<Home/>}/>
+                <Route path="/" element={<Navigate replace to="/home" />} />
                 <Route path='/search' element={<Search/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/rooms' element={<Rooms/>}/>
                 <Route path='/profile' element={<ProfileList/>}/>
                 <Route path='/updateprofile' element={<UpdateList/>}/>
-                <Route path='/home' element={<Home/>}/>
                 <Route path='/cart' element={<Cart/>}/>
             </Routes>
             <Pagination></Pagination>
