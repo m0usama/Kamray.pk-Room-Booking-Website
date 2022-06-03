@@ -33,13 +33,16 @@ const Navbar = () => {
                         {/*Collect the nav links, forms, and other content for toggling*/}
                         <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul className="nav navbar-nav menu_nav ml-auto">
-                                <Link to="/home" ><li className="nav-item active"><a className="nav-link" href="index.html">Home</a></li></Link>                                                                               &nbsp;&nbsp;
+                                <Link to="/home" ><li className="nav-item active"><a className="nav-link" href="">Home</a></li></Link>                                                                               &nbsp;&nbsp;
                                 &nbsp;
                                 &nbsp;
-                                <Link to="/about"><li className="nav-item"><a className="nav-link" href="about.html">About us</a></li></Link>                                                                               &nbsp;&nbsp;
+                                <Link to="/about"><li className="nav-item"><a className="nav-link" href="">About us</a></li></Link>                                                                               &nbsp;&nbsp;
                                 &nbsp;
                                 &nbsp;
-                                <Link to="/rooms"><li className="nav-item"><a className="nav-link" href="accomodation.html">Rooms</a> </li></Link>                                                                               &nbsp;&nbsp;
+                                <Link to="/rooms"><li className="nav-item"><a className="nav-link" href="">Rooms</a> </li></Link>                                                                               &nbsp;&nbsp;
+                                &nbsp;
+                                &nbsp;
+                                <Link to="/vote"><li className="nav-item"><a className="nav-link" href="">Review</a> </li></Link>                                                                               &nbsp;&nbsp;
                                 &nbsp;
                                 &nbsp;
                                 {/*<Link to="/about"><li className="nav-item"><a className="nav-link" href="gallery.html">Gallery</a></li>*/}

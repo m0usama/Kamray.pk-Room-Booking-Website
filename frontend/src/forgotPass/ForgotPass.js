@@ -41,7 +41,7 @@ const ForgotPass =()=> {
             </div>
 
 
-        )
+        );
 }
 
 export default ForgotPass

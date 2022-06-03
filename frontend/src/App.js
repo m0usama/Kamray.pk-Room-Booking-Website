@@ -15,6 +15,7 @@ import React from 'react'
 import Home from "./home/home";
 import Cart from "./cart/cart";
 import ForgotPass from "./forgotPass/ForgotPass";
+import {Vote} from "./vote/Vote";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
                 <Route path='/updateprofile' element={<UpdateList/>}/>
                 <Route path='/cart' element={<Cart/>}/>
                 <Route path='/forgotPassword' element={<ForgotPass/>}/>
+                <Route path='/Vote' element={<Vote/>}/>
             </Routes>
             <Pagination></Pagination>
             <Footer></Footer>

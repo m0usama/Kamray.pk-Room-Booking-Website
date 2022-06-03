@@ -1,23 +1,15 @@
-import React, {Component} from 'react';
+import React,  from 'react';
 import './ionicons.min.css'
 import './style.css'
 
 
 
-export default class Modelsignup extends Component {
+const Modelsignup =()=> {
 
-    render() {
-
-        let modelStyle ={
-            display : 'block',
-            backgroundColor: 'rgba(0,0,0,0.8)'
-
-
-        }
 
         return (
 
-            <div className="modal show fade shadow" style={modelStyle}>
+            <div className="modal show fade shadow">
                 <div className="modal-dialog">
                     <div className="modal-content">
 
@@ -85,5 +77,7 @@ export default class Modelsignup extends Component {
 
 
         );
-    }
+
 }
+
+export default Modelsignup
