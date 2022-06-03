@@ -26,7 +26,7 @@ const Navbar = () => {
                                 <Link to="/home" ><li className="nav-item active"><a className="nav-link" href="">Home</a></li></Link>                                                                               &nbsp;&nbsp;
                                 &nbsp;
                                 &nbsp;
-                                <Link to="/about"><li className="nav-item"><a className="nav-link" href="">About us</a></li></Link>                                                                               &nbsp;&nbsp;
+                                <Link to="/about"><li className="nav-item"><a className="nav-link" href="">Contact</a></li></Link>                                                                               &nbsp;&nbsp;
                                 &nbsp;
                                 &nbsp;
                                 <Link to="/rooms"><li className="nav-item"><a className="nav-link" href="">Rooms</a> </li></Link>                                                                               &nbsp;&nbsp;
@@ -35,24 +35,20 @@ const Navbar = () => {
                                 <Link to="/vote"><li className="nav-item"><a className="nav-link" href="">Review</a> </li></Link>                                                                               &nbsp;&nbsp;
                                 &nbsp;
                                 &nbsp;
-                                {/*<Link to="/about"><li className="nav-item"><a className="nav-link" href="gallery.html">Gallery</a></li>*/}
-                                {/*<li className="nav-item submenu dropdown">*/}
-                                {/*    <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button"*/}
-                                {/*       aria-haspopup="true" aria-expanded="false">Blog</a>*/}
-                                {/*    <ul className="dropdown-menu">*/}
-                                {/*        <li className="nav-item"><a className="nav-link" href="blog.html">Blog</a></li>*/}
-                                {/*        <li className="nav-item"><a className="nav-link" href="blog-single.html">Blog*/}
-                                {/*            Details</a></li>*/}
-                                {/*    </ul>*/}
-                                {/*</li>*/}
-                                <Link to="/profile"><li className="nav-item"><a className="nav-link" href="contact.html">Profile</a></li></Link>                                                                                &nbsp;&nbsp;
+                                <Link to="/Locations"><li className="nav-item"><a className="nav-link"  >Locations</a></li></Link>
+                                &nbsp;
+                                &nbsp;
+                                <Link to="/profile"><li className="nav-item"><a className="nav-link" href="contact.html">Profile</a></li></Link>
+                                &nbsp;&nbsp;
                                 <Link to="/cart"><li className="nav-item"><a className="nav-link" href="contact.html">Cart</a></li></Link>                                                                                &nbsp;&nbsp;
                                 &nbsp;
                                 &nbsp;
                                 <Link to="/Login"><li className="nav-item"><a className="nav-link"  >LogIn</a></li></Link>
+                                &nbsp;
+                                &nbsp;
                                 <Link to="/Signup"><li className="nav-item"><a className="nav-link"  >SignUp</a></li></Link>
-                                &nbsp;
-                                &nbsp;
+
+
 
                             </ul>
                         </div>

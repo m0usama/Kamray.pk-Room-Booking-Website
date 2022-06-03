@@ -6,6 +6,10 @@ import {Link} from "react-router-dom";
 const Modellogin =()=> {
 
     return(
+        <div style={{
+            backgroundSize:"cover",
+            backgroundImage: `url("https://images.unsplash.com/photo-1654169761064-95b4c1e2be6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")`
+        }}>
         <div className="container">
             <br/>
             <div className="modal-dialog">
@@ -46,7 +50,7 @@ const Modellogin =()=> {
                             </div>
                             <div className="form-group d-md-flex">
                                 <div className="w-100 text-center">
-                                    <a href="#" className="forgot" style={{color:'blue'}}>Don't have an account</a>
+                                    <Link to="/Signup" ><a href="#" className="forgot" style={{color:'blue'}}>Don't have an account</a></Link>
                                 </div>
                             </div>
                         </form>
@@ -66,6 +70,7 @@ const Modellogin =()=> {
 
 
         </div>
+            </div>
     );
 
 }

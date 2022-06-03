@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Booking from "../booking/booking";
+import Pagination from "react-js-pagination";
+import Paginate from "../pagination/pagination";
 
 
 
@@ -64,7 +66,7 @@ class Rooms extends Component{
                             <div className="page-cover text-center">
                                 <h2 className="page-cover-tittle">Rooms</h2>
                                 <ol className="breadcrumb">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="/home">Home</a></li>
                                     <li className="active">Rooms</li>
                                 </ol>
                             </div>
@@ -95,6 +97,17 @@ class Rooms extends Component{
                     </div>
 
                 </section>
+
+                <div className={"d-flex justify-content-center mt-5"}>
+                    <Pagination>
+                        {/*activpage={currentPage}*/}
+                        {/*itemCountPerPage={resPerPage}*/}
+
+
+                    </Pagination>
+                </div>
+
+                <Paginate></Paginate>
 
             </>
 

@@ -1,6 +1,6 @@
 
 
-const Pagination = () =>{
+const Paginate = () =>{
     return(
         <>
             <br/>
@@ -29,4 +29,4 @@ const Pagination = () =>{
     )
 }
 
-export default Pagination
+export default Paginate

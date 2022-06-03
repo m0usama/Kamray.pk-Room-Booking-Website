@@ -11,7 +11,7 @@ function About() {
                     <div class="page-cover text-center">
                         <h2 class="page-cover-tittle">About Us</h2>
                         <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/home">Home</a></li>
                             <li class="active">About</li>
                         </ol>
                     </div>
@@ -22,13 +22,16 @@ function About() {
                     <div class="row">
                         <div class="col-md-6 d_flex align-items-center">
                             <div class="about_content ">
-                                <h2 class="title title_color">About Us <br/>Our History<br/>Mission & Vision</h2>
-                                <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
-                                <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>
+                                <h2 class="title title_color">Contact Us</h2>
+                                <p><strong>Email : </strong>contact@kamray.com <br/><strong>Phone Number : </strong>+92-322-4433324</p>
+
+                                <a href="tel:+92-322-4433324" class="button_hover theme_btn_two">Call Us!</a>
+                                <br/>
+                                <a href="mailto: contact@kamray.com" className="button_hover theme_btn_two">Email Us!</a>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="image/about_bg.jpg" alt="img"/>
+                            <img class="img-fluid" src={"https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"} alt="img"/>
                         </div>
                     </div>
                 </div>

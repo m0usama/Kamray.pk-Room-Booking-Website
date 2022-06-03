@@ -13,7 +13,7 @@ const Search = () =>{
                     <div className="page-cover text-center">
                         <h2 className="page-cover-tittle">Search</h2>
                         <ol className="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/home">Home</a></li>
                             <li className="active">Search</li>
                         </ol>
                     </div>
@@ -23,7 +23,7 @@ const Search = () =>{
                                    onBlur="this.placeholder = 'Search'" required="" className="single-input"/>
                         </div>
                         <div className="col-lg-2">
-                            <a href="#" className="btn theme_btn button_hover">Search</a>
+                            <button type="submit" href="#" className="btn theme_btn button_hover">Search</button>
                         </div>
 
                     </div>

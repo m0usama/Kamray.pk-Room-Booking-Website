@@ -18,6 +18,7 @@ import ForgotPass from "./forgotPass/ForgotPass";
 import {Vote} from "./vote/Vote";
 import Modellogin from "./navbar/modellogin";
 import Modelsignup from "./navbar/modelsignup";
+import Locations from "./locations/Locations";
 
 function App() {
   return (
@@ -37,8 +38,8 @@ function App() {
                 <Route path='/Vote' element={<Vote/>}/>
                 <Route path='/Login' element={<Modellogin/>}/>
                 <Route path='/Signup' element={<Modelsignup/>}/>
+                <Route path='/locations' element={<Locations/>}/>
             </Routes>
-            <Pagination></Pagination>
             <Footer></Footer>
         </Router>
     </div>

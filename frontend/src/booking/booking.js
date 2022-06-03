@@ -13,7 +13,7 @@ const Booking = () =>{
                         <div className="col-md-9">
                             <div className="boking_table">
                                 <div className="row">
-                                    <div className="col-md-4">
+                                    <div className="col-md-6">
                                         <div className="book_tabel_item">
                                             <div className="form-group">
                                                 <div className='input-group date' id='datetimepicker11'>
@@ -35,37 +35,18 @@ const Booking = () =>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="book_tabel_item">
-                                            <div className="input-group">
-                                                <select className="wide">
-                                                    <option data-display="Adult">Adult</option>
-                                                    <option value="1">Old</option>
-                                                    <option value="2">Younger</option>
-                                                    <option value="3">Potato</option>
-                                                </select>
-                                            </div>
-                                            <div className="input-group">
-                                                <select className="wide">
-                                                    <option data-display="Child">Child</option>
-                                                    <option value="1">Child</option>
-                                                    <option value="2">Baby</option>
-                                                    <option value="3">Child</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-4">
+
+                                    <div className="col-md-6">
                                         <div className="book_tabel_item">
                                             <div className="input-group">
                                                 <select className="wide">
                                                     <option data-display="Child">Number of Rooms</option>
-                                                    <option value="1">Room 01</option>
-                                                    <option value="2">Room 02</option>
-                                                    <option value="3">Room 03</option>
+                                                    <option value="1">Room 1</option>
+                                                    <option value="2">Room 2</option>
+                                                    <option value="3">Room 3</option>
                                                 </select>
                                             </div>
-                                            <a className="book_now_btn button_hover" href="#">Book Now</a>
+                                            <a className="book_now_btn button_hover" href="/rooms">Book Now</a>
                                         </div>
                                     </div>
                                 </div>

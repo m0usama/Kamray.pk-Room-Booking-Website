@@ -8,10 +8,8 @@ const Footer = () =>{
                 <div className="row">
                     <div className="col-lg-3  col-md-6 col-sm-6">
                         <div className="single-footer-widget">
-                            <h6 className="footer_title">About Agency</h6>
-                            <p>The world has become so fast paced that people don’t want to stand by reading a page of
-                                information, they would much rather look at a presentation and understand the message.
-                                It has come to a point </p>
+                            <h6 className="footer_title">About Kamray.pk</h6>
+                            <p>An open courtyard in the heart of the hotel, with natural light seeping through glowing the ambiance with vibrance and warmth; Skylight offers a variety of flavors to its guests from locals to foreigners. Sip that cup of coffee, enjoy the diversity this courtyard has to offer.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
@@ -20,18 +18,16 @@ const Footer = () =>{
                             <div className="row">
                                 <div className="col-4">
                                     <ul className="list_style">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Feature</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="/home">Home</a></li>
+                                        <li><a href="/about">Contact</a></li>
+                                        <li><a href="/rooms">Rooms</a></li>
+                                        <li><a href="/profile">Profile</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-4">
                                     <ul className="list_style">
-                                        <li><a href="#">Team</a></li>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="/locations">Locations</a></li>
+                                        <li><a href="/Vote">Review</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -40,8 +36,7 @@ const Footer = () =>{
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="single-footer-widget">
                             <h6 className="footer_title">Newsletter</h6>
-                            <p>For business professionals caught between high OEM price and mediocre print and graphic
-                                output, </p>
+                            <p>Subscribe for our new offers!</p>
                             <div id="mc_embed_signup">
                                 <form target="_blank"
                                       action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
@@ -83,8 +78,6 @@ const Footer = () =>{
                     <div className="col-lg-4 col-sm-12 footer-social">
                         <a href="#"><i className="fa fa-facebook"></i></a>
                         <a href="#"><i className="fa fa-twitter"></i></a>
-                        <a href="#"><i className="fa fa-dribbble"></i></a>
-                        <a href="#"><i className="fa fa-behance"></i></a>
                     </div>
                 </div>
             </div>

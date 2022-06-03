@@ -1,6 +1,7 @@
 import React from 'react';
 import './ionicons.min.css'
 import './style.css'
+import {Link} from "react-router-dom";
 
 
 
@@ -8,8 +9,11 @@ const Modelsignup =()=> {
 
 
     return(
-
-        <div className="container">
+        <div style={{
+            backgroundSize:"cover",
+            backgroundImage: `url("https://images.unsplash.com/photo-1654169761064-95b4c1e2be6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")`
+        }}>
+        <div className="container" >
             <br/>
             <div className="modal-dialog">
                 <div className="modal-content">
@@ -47,7 +51,7 @@ const Modelsignup =()=> {
                             </div>
                             <div className="form-group d-md-flex">
                                 <div className="w-100 text-center">
-                                    <a href="#" className="forgot">I'm already a member</a>
+                                    <Link to="/Login" ><a href="#" className="forgot">I'm already a member</a></Link>
                                 </div>
                             </div>
                         </form>
@@ -70,7 +74,7 @@ const Modelsignup =()=> {
 
         </div>
 
-
+        </div>
     );
 
 }
