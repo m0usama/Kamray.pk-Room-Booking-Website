@@ -7,12 +7,15 @@ const ForgotPass =()=> {
         return (
 
             <div>
-                <br/>
-                <br/>
-                <br/>
-                <br/><br/>
+                <section className="breadcrumb_area">
+                    <div className="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0"
+                         data-background=""></div>
+
+                </section>
 
                 <div className="container">
+
+
 
                     <div className="form-group">
                         <label htmlFor="exampleInputPassword1">Old Password</label>
