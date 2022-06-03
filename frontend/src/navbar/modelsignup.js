@@ -60,15 +60,6 @@ const Modelsignup =()=> {
 
                 </div>
 
-                <div className="row justify-content-between" style={{padding:"2px"}}>
-                    <div className="col">
-
-                    </div>
-                    <div className="col">
-
-                    </div>
-
-                </div>
             </div>
 
 

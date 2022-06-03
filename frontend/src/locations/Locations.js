@@ -23,8 +23,9 @@ const Hotels = (props) => {
                         <img className="img-fluid" src={props.elem.imgurl} alt="img"/>
                     </div>
                 </div>
+                <hr/>
             </div>
-            <hr/>
+
 
 
         </>
@@ -84,6 +85,8 @@ const Locations = () =>{
                     </div>
                 </div>
             </div>
+            <br/>
+            <br/>
 
         </>
     )

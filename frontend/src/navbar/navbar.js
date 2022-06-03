@@ -9,10 +9,10 @@ const Navbar = () => {
         <div>
 
             <header className="header_area shadow-sm">
-                <div className="container">
+                <div className="">
                     <nav className="navbar navbar-expand-lg navbar-light">
                         {/*Brand and toggle get grouped for better mobile display*/}
-                        <a className="navbar-brand logo_h" href="index.html"><img src={logo} alt=""/></a>
+                        <a className="navbar-brand logo_h" href="/home"><img src={logo} alt=""/></a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">

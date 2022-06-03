@@ -23,10 +23,12 @@ function About() {
                         <div class="col-md-6 d_flex align-items-center">
                             <div class="about_content ">
                                 <h2 class="title title_color">Contact Us</h2>
+                                <p>Set within a private and secure space. Tucked away in a our hotel is the perfect escape for you. With cozy bedrooms, a spacious family lounge, dining area, and kitchen, you’ll feel perfectly at home!</p>
                                 <p><strong>Email : </strong>contact@kamray.com <br/><strong>Phone Number : </strong>+92-322-4433324</p>
 
                                 <a href="tel:+92-322-4433324" class="button_hover theme_btn_two">Call Us!</a>
-                                <br/>
+                                &nbsp;
+                                &nbsp;
                                 <a href="mailto: contact@kamray.com" className="button_hover theme_btn_two">Email Us!</a>
                             </div>
                         </div>
