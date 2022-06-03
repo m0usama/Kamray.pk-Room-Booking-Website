@@ -14,6 +14,7 @@ import UpdateList from "./profile/UpdateList";
 import React from 'react'
 import Home from "./home/home";
 import Cart from "./cart/cart";
+import ForgotPass from "./forgotPass/ForgotPass";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path='/profile' element={<ProfileList/>}/>
                 <Route path='/updateprofile' element={<UpdateList/>}/>
                 <Route path='/cart' element={<Cart/>}/>
+                <Route path='/forgotPassword' element={<ForgotPass/>}/>
             </Routes>
             <Pagination></Pagination>
             <Footer></Footer>

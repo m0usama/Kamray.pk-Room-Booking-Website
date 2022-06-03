@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
 
 
@@ -53,7 +54,7 @@ export default class Modellogin extends Component {
 
                                 <div className="form-group d-md-flex">
                                     <div className="w-100 text-center" >
-                                        <a href="#" className="forgot" style={{color:'blue'}}>Forgot Password?</a>
+                                        <Link to="/forgotPassword" ><a href="#" className="forgot" onClick={this.props.hide} style={{color:'blue'}}>Forgot Password?</a></Link>
                                     </div>
                                 </div>
                                 <div className="form-group d-md-flex">
