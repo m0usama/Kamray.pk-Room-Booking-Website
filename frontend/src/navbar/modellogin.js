@@ -5,17 +5,12 @@ import {Link} from "react-router-dom";
 
 const Modellogin =()=> {
 
-    return (
-        <div className="modal show fade shadow">
+    return(
+        <div className="container">
+            <br/>
             <div className="modal-dialog">
                 <div className="modal-content">
 
-                    <div className="modal-header p-5 pb-4 border-bottom-0">
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" onClick={this.props.hide} aria-label="Close"></button>
-                    </div>
-                    <div >
-
-                    </div>
                     <div className="modal-body p-4 py-5 p-md-5">
                         <h3 className="text-center mb-3">Welcome Back!</h3>
                         <ul className="ftco-footer-social p-0 text-center">
@@ -46,7 +41,7 @@ const Modellogin =()=> {
 
                             <div className="form-group d-md-flex">
                                 <div className="w-100 text-center" >
-                                    <Link to="/forgotPassword" ><a href="#" className="forgot" onClick={this.props.hide} style={{color:'blue'}}>Forgot Password?</a></Link>
+                                    <Link to="/forgotPassword" ><a href="#" className="forgot"  style={{color:'blue'}}>Forgot Password?</a></Link>
                                 </div>
                             </div>
                             <div className="form-group d-md-flex">

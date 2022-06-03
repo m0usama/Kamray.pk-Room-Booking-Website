@@ -16,6 +16,8 @@ import Home from "./home/home";
 import Cart from "./cart/cart";
 import ForgotPass from "./forgotPass/ForgotPass";
 import {Vote} from "./vote/Vote";
+import Modellogin from "./navbar/modellogin";
+import Modelsignup from "./navbar/modelsignup";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
                 <Route path='/cart' element={<Cart/>}/>
                 <Route path='/forgotPassword' element={<ForgotPass/>}/>
                 <Route path='/Vote' element={<Vote/>}/>
+                <Route path='/Login' element={<Modellogin/>}/>
+                <Route path='/Signup' element={<Modelsignup/>}/>
             </Routes>
             <Pagination></Pagination>
             <Footer></Footer>

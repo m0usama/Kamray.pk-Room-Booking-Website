@@ -4,17 +4,7 @@ import React, {useState} from "react";
 import Modelsignup from "./modelsignup";
 import {Link} from "react-router-dom";
 const Navbar = () => {
-    const [model1 , setModel1] = useState(false);
-    const getData1 = () =>{
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        return setModel1(true);
-    }
 
-    const [model2 , setModel2] = useState(false);
-    const getData2 = () =>{
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        return setModel2(true);
-    }
     return (
         <div>
 
@@ -57,23 +47,18 @@ const Navbar = () => {
                                 {/*</li>*/}
                                 <Link to="/profile"><li className="nav-item"><a className="nav-link" href="contact.html">Profile</a></li></Link>                                                                                &nbsp;&nbsp;
                                 <Link to="/cart"><li className="nav-item"><a className="nav-link" href="contact.html">Cart</a></li></Link>                                                                                &nbsp;&nbsp;
-
-                                <li className="nav-item"><a className="nav-link"  onClick={() => getData2()}>Sign Up</a></li>
-                                <li className="nav-item"><a className="nav-link"  onClick={() => getData1()}>Log In</a></li>
-
+                                &nbsp;
+                                &nbsp;
+                                <Link to="/Login"><li className="nav-item"><a className="nav-link"  >LogIn</a></li></Link>
+                                <Link to="/Signup"><li className="nav-item"><a className="nav-link"  >SignUp</a></li></Link>
+                                &nbsp;
+                                &nbsp;
 
                             </ul>
                         </div>
                     </nav>
                 </div>
             </header>
-            {
-                model1 === true ? <Modellogin hide={() => setModel1(false)}/> : ''
-
-            }
-            {
-                model2 === true ? <Modelsignup hide={() => setModel2(false)}/> : ''
-            }
 
 
         </div>

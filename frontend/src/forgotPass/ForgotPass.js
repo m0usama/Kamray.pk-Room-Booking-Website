@@ -15,8 +15,6 @@ const ForgotPass =()=> {
 
                 <div className="container">
 
-
-
                     <div className="form-group">
                         <label htmlFor="exampleInputPassword1">Old Password</label>
                         <input type="password" className="form-control" id="exampleInputPassword1"
