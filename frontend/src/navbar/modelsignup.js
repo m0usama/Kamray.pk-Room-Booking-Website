@@ -1,4 +1,4 @@
-import React,  from 'react';
+import React from 'react';
 import './ionicons.min.css'
 import './style.css'
 
